@@ -63,3 +63,90 @@ html, body{
 .intro-image{
     display: flex;
 }
+.main-gas{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.subordinate-liquid{
+    display: flex;
+    gap: 10px;
+}
+.subordinate-liquid p{
+    background-color: rgba(250, 0, 0, 0.986);
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+.p1{
+    margin-left: 5rem;
+}
+.dentist{
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+}
+.dentist p{
+    background-color: rgba(250, 0, 0, 0.986);
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+.p2{
+    margin-left: 5rem;
+}
+.brother-inlaw{
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+}
+.brother-inlaw p{
+    background-color: rgba(250, 0, 0, 0.986);
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+.p3{
+    margin-left: 5rem
+}
+.liquid{
+    padding: 20px;
+}
+#gas{
+    padding: 50px;
+}
+#store{
+    text-align: center;
+}
+.store-images{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 10px 10px;
+   
+}
+.store-images h3{
+    margin-bottom: 30px;
+}
+.h32{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.nav-links2{
+    background-color: rgb(196, 63, 63);
+    color: white;
+    border-radius: 50px;
+    padding: 10px 20px;
+    
+}
+.information{
+    background-color: red;
+    display: flex;
+    gap: 20rem;
+    margin-top: 50px;
+    padding-top: 70px;
+}
+.h41{
+    font-size: 25px;
+    padding: 10px;
+}
