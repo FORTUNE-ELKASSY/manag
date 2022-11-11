@@ -6,13 +6,12 @@
     font-family: 'Be Vietnam Pro';
 
 }
-
+html,body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
 a{
     text-decoration: none;
-}
-
-html, body{
-   overflow-x: hidden;
 }
 
 #nav{
@@ -36,287 +35,475 @@ html, body{
     border-radius: 50px;
     padding: 10px 20px;
 }
-
-#intro{
-    padding: 20px 60px;
+#inform{
     display: flex;
+    gap: 4em;
     justify-content: space-between;
     align-items: center;
-}
-
-.introduction{
-    width: 40%;
-}
-
-.introduction h1{
-    padding-bottom: 40px;
-    color: hsl(227, 81%, 17%) ;
-    font-size: 50px
+    padding: 20px 60px;
     
 }
-
-.introduction p{
-    font-size: 26px;
-    margin-bottom: 20px;
-}
-
-.intro-image{
+.information{
     display: flex;
+    margin-top: 30px;
+    width: 100%;
+    padding: 20px 60px ;
+    
 }
-
-.main-gas{
-    display: flex;
-    justify-content: space-between;
-    gap: 50px;
-
+.roll{
+    width: 60%;
 }
-.subordinate-liquid{
-    display: flex;
-    gap: 10px;
+.information h1{
+    font-size: 60px;
+    
 }
-.pp{
-    background-color: rgba(250, 0, 0, 0.986);
-    border-radius: 40px;
-    padding: 8px 20px;
-    color: #eee;
-}
-
-.p1{
-    margin-left: 5rem;
-}
-.dentist{
-    display: flex;
-    gap: 10px;
-    padding-top: 20px;
-}
-.p2{
-    margin-left: 5rem;
-}
-.brother-inlaw{
-    display: flex;
-    gap: 10px;
-    padding-top: 20px;
-}
-.p3{
-    margin-left: 5rem
-}
-.liquid{
-    padding: 20px;
-}
-#gas{
-    padding: 50px;
-}
-.h22{
-    font-size: 18px;
-}
-#store{
-    text-align: center;
-}
-.store-images{
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 50px;
-  
-}
-.store-images img{
-    margin-top: -60px;
-    width: 20%;
-}
-.store-images div{
-    box-shadow: 5px 5px 10px #eee;
-    padding: 30px 50px;
-}
-
-.h32{
-    text-align: center;
+.information p{
     font-size: 25px;
-    margin-bottom: 90px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
-.nav-links2{
+.nav-links22{
     background-color: rgb(196, 63, 63);
     color: white;
     border-radius: 50px;
     padding: 10px 20px;
+    margin-top: 50px;
+}
+
+.information-image{
+    width: 100%;
+}
+#manage{
+    display: flex;
+    gap: 3em;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    margin-top: 40px;
+}
+.manag{
+    width: 60%;
+}
+.management{
+    width: 100%;
+    display: flex;
+    padding: 20px 50px;
+
+
+}
+.manag p{
+    font-size: 25px;
+    margin-top: 34px;
+}
+.manag h2{
+    font-size: 40px;
+}
+.manager{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 60%;
+    
     
 }
-.information{
-    /* background-color: red; */
+.managers{
     display: flex;
-   align-items: center;
-   justify-content: space-between;
-}
-.h41{
-    font-size: 2em;
+    gap: 1.5em;
+    margin-top: 30px;
     width: 100%;
-    max-width: 15em;
-    color: #eee;
 }
-.store-images p{
-    padding-top: 30px;
+.managers h2{
+    font-size: 18px;
+
 }
-.nav-links3{
+.h23{
+    font-size: 24px;
+}
+.modern{
+    display: flex;
+    gap: 1.5em;
+    margin-top: 30px;
+}
+.modern h2{
+    font-size: 24px;
+}
+.ancient{
+    display:flex ;
+    gap: 0.5em;
+    margin-top: 30px;
+    font-size: 21px;
+}
+.no{
     background-color: rgb(196, 63, 63);
     color: white;
     border-radius: 50px;
-    padding: 8px 5px;
-
+    padding: 10px 20px;
 }
-#inform{
-    background-color:  hsl(12, 88%, 59%);
-    padding: 2em 7em;
-    margin-top: 3em;
+.pp{
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 17px;
 }
-
-#foot{
-    background-color:hsl(233, 12%, 13%);
+#inquiry{
+    padding: 20px 60px;
+}
+.h31{
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 50px;
+}
+.inquiry-images{
     display: flex;
+    gap: 20px;
+    text-align: center;
+}
+.hipher{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.inquiry-images p{
+    margin-top:30px;
+    font-size:17px;
+
+}
+#simplify{
     justify-content: space-between;
     align-items: center;
-    color: #eee;
-    padding: 30px 60px;
 }
-#foot a{
-    color: #eee;
+.simplification{
+    padding: 20px 50px;
+    display:flex;
+    background-color: rgb(196, 63, 63);
+    gap: 3em;
+    justify-content: space-between;
+    align-items: center;
 }
-.foot-icons{
-    padding-top: 30px;
+.nav-links23{
+    background-color:white;
+    color: rgb(211, 74, 74);
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 20px;
 }
-.a-tags{
+.simplification h4{
+    padding: 10px 20px;
+    font-size:40px;
+    width: 100%;
+    max-width: 50%;
+}
+.closure p{
+    display: none;
+}
+.closure img{
+    margin-bottom: 30px;
+}
+#foot{
+    color: aliceblue;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    gap: 30px;
+    background-color: hsl(233, 12%, 13%);
+    color: aliceblue;
+}
+.footer-icon a{
+    margin-top: 30px;
+    color: aliceblue;
+    
+}
+.footer-links{
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
-.a-tags1{
+.footer-links1{
     display: flex;
     flex-direction: column;
-}
-.a-tags2{
-    display: flex;
-    flex-direction: column;
-}
-.footer-closuretop{
-    display: grid;
-    grid-template-columns: repeat(2,1fr)
-}
+    color: aliceblue;
+    gap: 10px;
 
-.footer-closure p{
-  margin-top: 30px;
-  font-size: 14px;
 }
-.footer-closure h3{
-    color: red;
+.footer-links2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.footer-links1 a,.footer-links2 a{
+    color: white;
 }
 .email{
-    color: #eee;
-    border-radius: 50px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    padding: 10px 15px;
+    border: none;
     outline: none;
-    border: 0;
-    padding: 10px 10px;
 }
 .command{
-    background-color: rgb(112, 44, 44);
-    border: 0;
+    border-radius: 20px;
+    background-color: rgb(207, 40, 18);
+    padding: 10px 15px;
+    color: white;
+    border: none;
     outline: none;
-    border-radius:20px;
-    padding: 10px 10px;
 }
-
-@media screen and (max-width: 992px) {
-    .introduction h1{
-       font-size: 25px;
-    }
-    .introduction p{
-        font-size: 14px;
-    }
-    .introduction a{
-        padding: 10px 10px;
-    }
-    
-    .nav-links3{
-        padding: 10px 20px;
-    }
-    .a-tags{
-        padding-left: 50px;
-        gap: 25px;
-        font-size: 14px;
-        
-    }
-    .a-tags1,.a-tags2{
-        gap: 5px;
-    }
-    .footer-closure{
-        padding-left: 50px;
-    }
-    .footer-closuretop{
-        display: flex;
-        gap: 10px;
-        }
-    #foot{
-        align-items: center;
-    }
-    .store-images p{
-        text-align: center;
-        font-size: 15px;
-    }
-    .h41{
-        font-size: 1.5em;
-    }
-    .h32{
-        margin-top: 70px;
-    }
+.extreme-top{
+    gap: 20px;
+    color: aliceblue;
 }
-@media screen and (max-width: 768px) {
-    .introduction h1{
+.extreme p{
+    margin-top: 30px;
+}
+@media screen and (max-width: 1200px){
+    #inform{
+        gap: 5em;
+        padding: 10px 40px;
+    }
+    .information p{
         font-size: 18px;
     }
-    .introduction p{
-        font-size: 10px;
+    .manag h2{
+        font-size: 27px;
     }
-    .introduction a{
-        padding: 8px 8px;
-        border-radius: 40px;
-        font-size: 12px;
+    .management{
+        gap: 2em;
+        padding: 20px 40px;
     }
-    .intro-image{
-        padding-left: 70px;
-    }
-    #intro{
-        padding: 18px 50px;
-    }
-    .gaseous h2{
+    .pp{
         font-size: 20px;
+    }
+    .manag{
+        margin-left: -50px;
+    }
+    .manag p{
+        font-size: 20px;
+    }
+    .managers h2{
+        font-size: 22px;
+    }
+    .modern h2{
+        font-size: 22px;
+    }
+    .h23{
+        font-size: 20px;
+    }
+    .h31{
+        font-size: 40px;
+    }
+    .inquiry-images p{
+        font-size: 16px;
+    }
+    .extreme-top{
+        display: flex;
+    }
+}
+@media screen and (max-width:900px) {
+    #inform{
+        padding: 10px 35px;
+        justify-content: space-between;
+        gap: 5em;
+    }
+    .information{
+        padding: 10px 35px;
+    }
+    .information h1{
+        font-size: 30px;
+    }
+    .information p{
+        font-size: 15px;
+    }
+    .management{
+        gap: 3em;
+        padding: 20px 35px;
+    }
+    #manage{
+        padding: 20px 35px;
+        gap: 2em;
 
     }
-    .gaseous p{
+    .manag{
+        margin-left:-30px;
+    }
+    .manag h2{
+        font-size: 25px;
+    }
+    .manag p{
+        font-size: 15px;
+    }
+    .managers h2{
+        font-size: 17px;
+    }
+    .modern h2{
+        font-size: 17px;
+    }
+    .pp{
+        font-size: 15px;
+    }
+    .h23{
+        font-size: 17px;
+    }
+    .h31{
+        font-size: 30px;
+    }
+    .inquiry-images p{
+        font-size: 11px;
+    }
+    .simplification h4{
+        font-size: 30px;
+    }
+    .nav-links23{
+        padding: 7px 10px;
+    }
+    .extreme-top{
+        display: flex;
+        
+    }
+}
+@media screen and (max-width:768px) {
+    #inform{
+       gap: 3em;
+       justify-content: space-between;
+       align-items: center;
+    }
+    .information h1{
+       font-size: 25px;
+    }
+    .information p{
+        font-size: 15px;
+    }
+    .nav-links22{
+        padding: 10px 15px;
+    }
+    .hipher{
+        font-size: 10px;
+    }
+    .managers h2{
+        font-size: 17px;
+    }
+    .modern h2{
+        font-size: 17px;
+    }
+    .pp{
+        font-size: 15px;
         margin-top: 10px;
-        font-size: 15px;
     }
-    .h22{
-        font-size: 15px;
+    .h23{
+        font-size: 16px;
+        margin-right: 5px;
     }
-    .p1{
-        font-size: 15px;
+    .inquiry-images p{
+       font-size: 12px;
     }
-    .p2{
-        font-size: 15px;
+    .simplification h4{
+        font-size: 20px;
     }
-    .p3{
-        font-size: 15px;
+    .nav-links23{
+       padding: 4px 3px;
     }
-    .h22{
-        margin-top: 10px;
-    }
-    .h32{
-        margin-top: 50px;
-    }
-    .store-images p{
+    .footer-links1{
         font-size: 12px;
+        gap: 5px;
     }
-    .a-tags{
+    .footer-links2{
         font-size: 12px;
+        gap: 5px;
     }
-    #foot{
-        padding: 19px 51px;
+    .extreme p{
+        font-size: 13px;
     }
+    .footer-icon{
+        margin-top: 12px;
+    }
+        
+    
+}
+@media screen and (max-width:500px) {
+   #inform{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+   }
+   .information{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-right: 30px;
+    padding: 10px 10px;
+   }
+   .information-image{
+    width: 100%;
+   }
+   .roll{
+    margin-top: 30px;
+    width: 100%;
+   }
+   .information h1{
+    font-size: 38px;
+    text-align: center;
+   }
+   .information p{
+    font-size: 17px;
+   }
+   .management{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 10px;
+   }
+   .manager{
+    width: 100%;
+   }
+   .managers{
+    gap: 0.5em;
+   }
+   .modern{
+    gap: 0.5em;
+   }
+   .manag{
+    width: 100%;
+    margin-left: -5px;
+   }
+   .manag p{
+    text-align: center;
+   }
+   .pp{
+    margin-left: 0px;
+    font-size: 13px;
+   }
+   .inquiry-images{
+    display: flex;
+    flex-direction: column;
+   }
+   .simplification{
+    display: flex;
+    flex-direction: column;
+   }
+   .simplification h4 {
+    max-width: 100%;
+    text-align: center;
+    font-size: 31px;
+    margin-top: 20px;
+   }
+   .nav-links23{
+    margin-bottom: 30px;
+   }
+   .footer{
+    display: flex;
+    flex-direction: column-reverse;
+   }
+   .closure{
+    display: flex;
+    flex-direction: column-reverse;
+   }
+   .extreme p{
+    display: none;
+   }
+   .closure p{
+    display: block;
+    font-size: 11px;
+   }
+   .closure img{
+    margin-top: 15px;
+   }
 }
